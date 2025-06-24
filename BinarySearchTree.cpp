@@ -1,5 +1,3 @@
-//BinarySearchTree_0220
-
 #include <iostream>
 using namespace std;
 
@@ -21,7 +19,8 @@ public:
 
 class BinaryTree
 {
-
+public:
+    Node *ROOT;
 };
 
 
