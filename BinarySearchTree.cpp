@@ -26,6 +26,11 @@ public:
     {
         ROOT = nullptr; //Initializing ROOT to Null
     }
+
+    void insert()
+    {
+        
+    }
 };
 
 
