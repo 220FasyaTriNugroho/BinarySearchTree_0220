@@ -47,6 +47,14 @@ public:
         Node *parent = nullptr;
         Node *currentNode = nullptr;
         search(x, parent, currentNode);
+
+        // Step 5: If parent is Null (Tree is Empty)
+        if (parent == nullptr)
+        {
+            // 5a: Mark the new node as Root
+            ROOT = newNode;
+        }
+        
     }
 };
 
